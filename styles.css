@@ -1,0 +1,10 @@
+input[type=search] { 
+	color: red;  
+	text-align: right;
+	cursor: pointer;
+	display: block; 
+	width: 100%; 
+	letter-spacing: 4px;        
+	text-shadow: 0 0 2px black;       
+	word-spacing: 20px;               
+}

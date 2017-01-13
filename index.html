@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tiny Victories</title>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <link href="styles.css"/>
+</head>
+<body>
+
+<div id="mainScreen">
+    
+    <input type=search results=5 placeholder="Search for foods" id="foodSearch" name="foodSearch"  onsearch="searchFood();"></div>
+    <div id="searchResults">
+        <ul id="resultList"></ul>
+    </div>
+    <div id="foodDetails"></div>
+    <select id="foodVariants"></select>
+    <input type="button" value="Add" onclick="addFoodToDB();" />
+    <div id="searchCredit">U.S. Department of Agriculture, Agricultural Research Service. 2017. USDA Branded Food Products Database . Nutrient Data Laboratory Home Page, http://ndb.nal.usda.gov</div>
+<div id="itemAddedScreen"></div>
+<div id="instructionsScreen"></div>
+<div id="aboutScreen"></div>
+    <script src="script.js" type="text/javascript" onclick="addFoodToDB();"></script>
+</body>
+</html>
